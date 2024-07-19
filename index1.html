@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS changer</title>
+    <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Change the CSS of below image!With the help of the Sliders</h1>
+        <span class="heading">Javascript</span>
+        <div class="css-controller">
+            <label for="color">base color</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+            <label for="width">Width:</label>
+            <input
+            type="range"
+            id="width"
+            name="width"
+            min="0"
+            max="100"
+            value="30"
+            data-sizing="%">
+            <label for="border-radius">Border Radius:</label>
+            <input
+            type="range"
+            id="border-radius"
+            name="border-radius"
+            min="0"
+            max="100"
+            value="5"
+            data-sizing="px">
+            <label for="padding">Padding:</label>
+            <input
+            type="range"
+            id="padding"
+            name="padding"
+            min="0"
+            max="100"
+            value="0"
+            data-sizing="px">
+            <label for="blur">Blur:</label>
+            <input
+            type="range"
+            id="blur"
+            name="blur"
+            min="0"
+            max="25"
+            value="0"
+            data-sizing="px">
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2022/08/22/12/42/bird-7403593_640.jpg" alt="image from pixabay">
+        
+    </div>
+    <script src="script1.js" ></script>
+</body>
+</html>
